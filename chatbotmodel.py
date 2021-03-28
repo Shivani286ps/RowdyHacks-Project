@@ -44,7 +44,7 @@ lbl_encoder = LabelEncoder()
 lbl_encoder.fit(training_tags)
 training_tags = lbl_encoder.transform(training_tags)
 vocab_size = 1000
-embedding_dim = 16
+embedding_dim = 32
 max_len = 100
 oov_token = "<OOV>"
 
@@ -58,8 +58,8 @@ padded_sequences = pad_sequences(sequences, truncating='post', maxlen=max_len)
 model = Sequential()
 model.add(Embedding(vocab_size, embedding_dim, input_length=max_len))
 model.add(GlobalAveragePooling1D())
-model.add(Dense(16, activation='relu'))
-model.add(Dense(16, activation='relu'))
+model.add(Dense(32, activation='relu'))
+model.add(Dense(32, activation='relu'))
 model.add(Dense(number_of_classes, activation='softmax'))
 
 model.compile(loss='sparse_categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
