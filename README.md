@@ -19,3 +19,6 @@ How to run this model:
 4. Add another code in that notebook and copy and pest the chat.py file.
 5.Now, Run chat.py 
 6.It pops the User Box, then types some question in that box and it will gives the output.
+
+
+https://www.youtube.com/watch?v=VH9zne7GNVU
