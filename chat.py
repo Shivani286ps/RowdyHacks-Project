@@ -27,7 +27,7 @@ def chat():
         lbl_encoder = pickle.load(enc)
 
     # parameters
-    max_len = 20
+    max_len = 100
     
     while True:
         print(Fore.LIGHTBLUE_EX + "User: " + Style.RESET_ALL, end="")
