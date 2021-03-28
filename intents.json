@@ -25,7 +25,7 @@
     },
     {"tag": "vaccination",
     "patterns": ["what types of vaccines are available?","vaccination","vaccine","Which vaccine is best?", "Can I choose vaccine?"],
-    "responses": ["vaccination types:\n1.Pizer-BioNTech \n2.Moderna \n3.Johnson & Johnson/Janssen", "Three types of vaccines,All are safe"]
+    "responses": ["vaccination types:\n1.Pizer-BioNTech \n2.Moderna \n3.Johnson & Johnson/Janssen"]
     },
 
     {"tag": "doses",
@@ -37,23 +37,23 @@
     "responses": ["yes, there ll be mild side-effects: \n1.Tiredness \n2.Muscle pain \n3.Fever \n4.Nausea \n5.Swelling of Arm", "fever, arm pain is common, dont get scared"]
     },
     {"tag": "tips",
-    "patterns": ["what should do after my vaccination?", "what can i do to reduce arm pain?", "tips","armpain","safe"],
+    "patterns": ["what should do after my vaccination?", "what can i do to reduce arm pain?", "tips", "armpain", "safe"],
     "responses": ["1. Apply wet wash cloth over the area \n2. Exercise Your Arm \n3. Drink Plenty of fluids \n4. dress lightly.", "Exercise your arm and Take rest "]
     },
     {"tag": "covidsymptoms",
-    "patterns": ["what should I do if I have some covid symptoms?", "Can I visit vaccination center if I have COVID-19 sympytoms?","I am sick of covid", "covidsymptoms"],
+    "patterns": ["what should I do if I have some covid symptoms?", "Can I visit vaccination center if I have COVID-19 sympytoms?", "I am sick of covid", "covidsymptoms"],
     "responses": ["People with COVID-19, should wait to be vaccinated until they have recovered","Only people without covid are advised to get vaccinated"]
     },
     {"tag": "eligible",
-     "patterns": ["am I eligible to take vaccination?", "When will the vaccine be available to me?", "If I have underlying condition, can I get a COVID-19 vaccine?","eligibility"],
+     "patterns": ["am I eligible to take vaccination?", "When will the vaccine be available to me?", "If I have underlying condition, can I get a COVID-19 vaccine?", "eligibile"],
      "responses": ["Eligible for vaccination: \n1. above 50 years \n2. 16 years or older, if any chronical medical condition \n3. Frontline healthcare personnel \n4. Education and childcare personnel"]
     },
     {"tag": "aftervaccine",
-     "patterns": ["How long does protection from a COVID-19 vaccine last?", "Do I need to wear a mask if I have gotten 2 doses of the vaccine?","protection"],
+     "patterns": ["How long does protection from a COVID-19 vaccine last?", "Do I need to wear a mask if I have gotten 2 doses of the vaccine?", "aftervaccine"],
      "responses": ["To wear a mask even after you've been fully vaccinated is recommended","Its recommended to wear mask at all time in gathering "]
     },
     {"tag": "sanantoniolocation",
-    "patterns": ["what are the San Antonio vaccination centers","where do I get a vaccine?","location","sanantonio"],
+    "patterns": ["what are the San Antonio vaccination centers", "where do I get a vaccine?", "sanantoniolocation"],
     "responses": ["San Antonio Vaccination centers: \n1.5301 Alamo Ranch Parkway \n2.22135 Interstate \n3.9285 Culebra Rd"]
     }
 ]
